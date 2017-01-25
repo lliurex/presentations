@@ -1,85 +1,34 @@
-# WebSlides = Good Karma
-Finally, everything you need to make HTML presentations in a beautiful way. Just the essentials. You can create your own presentation instantly. Simply choose a demo and customize it in minutes — [https://webslides.tv/demos](https://webslides.tv/demos)
+# LliureX és fácil
+Con lliurex no te tienes que preocupar de las herramintas y aplicaciones para utilizar en el aula, vienen todas de serie.
 
-### Why WebSlides?
-Good karma and productivity. Just a basic knowledge of HTML and CSS is required. Designers, marketers, and journalists can now focus on the content.
+### ¿Por qué LliureX?
+Tiene lo que necesitas, está en tu idioma, tiene soporte directo por parte de los desarrolladores, se adapta a tus necesidades, está continuamente evolucionando para ti.
 
-### Features
-Version 0.1 (Jan 8, 2017):
-
-- Navigation (horizontal and vertical sliding): touchpad, keyboard shorcuts, and swipe.
-- Slide counter.
-- Permalinks: go to a specific slide.
-- Simple CSS alignments. Put content wherever you want (vertical centering...)
-- 40+ components: background images/videos, quotes, cards, covers...
-- Flexible blocks with auto-fill and equal height.
-- Fonts: Roboto, Maitree (Serif), and San Francisco.
-- Vertical rhythm (use multiples of 8).
-
-### Markup
-
-- Code is clean and scalable. It uses intuitive markup with popular naming conventions. There's no need to overuse classes or nesting.
-- Each parent <code>&lt;section&gt;</code> in the #webslides element is an individual slide.
-
-<pre>&lt;article id="webslides"&gt;
-    &lt;section&gt;
-    	&lt;h1&gt;Slide 1&lt;/h1&gt;
-    &lt;/section&gt;
-    &lt;section class="bg-black aligncenter"&gt;
-    <span class="code-comment">&lt;!-- .wrap = container 1200px --&gt;</span>
-    	&lt;div class="wrap"&gt;
-    		&lt;h1&gt;Slide 2&lt;/h1&gt;
-    	&lt;/div&gt;
-    &lt;/section&gt;
-&lt;/article&gt;</pre>
-
-#### Vertical Sliding
-
-<pre>&lt;article id="webslides" class="vertical"&gt;</pre>
-
-### What's in the download?
-
-The download includes demos and images (devices and logos). 
-All content is for demo purposes only. Images are property of their respective owners.
-
-```
-webslides/
-├── index.html
-├── css/
-│   ├── base.css
-│   └── colors.css
-│   └── svg-icons.css (optional)
-├── js/
-│   ├── webslides.js
-│   └── svg-icons.js (optional)
-└── demos/
-└── images/
-```
-
-### CSS Syntax (classes)
-
-- Typography: .text-landing, .text-data, .text-intro...
-- Background Colors: .bg-primary, .bg-apple, .bg-blue...
-- Background Images: .background,.background-center-bottom...
-- Cards: .card-50, .card-40...
-- Flexible Blocks: .flexblock.clients, .flexblock.metrics...
+### Carácterísticas
 
 
-### Extensions
+- Control de aula.
+- Recolector de trabajos.
+- Filtro de contenidos.
+- Usuarios centralizados.
+- Modelo de aula/centro.
+- Continuamente actualizado.
+- Últimas versiones de las aplicaciones más utilizadas.
+- Técnicos de soporte.
+- Wiki con manuales continuamente actualizados.
 
-You can add:
-- [Unsplash](https://unsplash.com) photos
-- [animate.css](https://daneden.github.io/animate.css)
-- [particles.js](https://github.com/VincentGarreau/particles.js)
-- [pt](http://williamngan.github.io/pt/)
+### Otras
 
-### License
+- Fomenta el empleo local
+- Puedes colaborar si quieres.
+- Libre de virus.
+- Cada vez más fácil de usar.
 
-WebSlides is licensed under the [MIT License](https://opensource.org/licenses/MIT). 
-Use it to make something cool.
+### Webs interesantes
 
-### Credits
 
-- WebSlides was created by [@jlantunez](https://twitter.com/jlantunez) using [Cactus](https://github.com/eudicots/Cactus).
-- Thanks [@LuisSacristan](https://twitter.com/luissacristan) for the javascript code :)
-- Based on [SimpleSlides](https://github.com/jennschiffer/SimpleSlides), by [@JennSchiffer](https://twitter.com/jennschiffer).
+- [Lliurex.net](http://lliurex.net) web oficial del proyecto
+- [wiki.lliurex.net](https://wiki.lliurex.net) Wiki con manuales y videotutoriales
+
+###Licencias
+Lliurex és software libre y está licenciado con la GPLv3
