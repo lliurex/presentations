@@ -16,7 +16,7 @@
     -->
       
     <!-- SEO --> 
-    <title>Wifi con usuarios de LliureX</title>
+    <title>LliureX Guard</title>
     <meta name="description" content="Presentación LliureX">
     
     <!-- URL CANONICAL -->
@@ -67,32 +67,7 @@
     
   </head>
   <body >
-    <!--<header role="banner">
-      <nav role="navigation">
-        <p class="logo"><a href="index.html" title="Control del aula">Control del aula</a></p>
-        <ul>
-          <li class="github">
-            <a rel="external" href="http://lliurex.net" title="LliureX">
-              <svg class="fa-github">
-                <use xlink:href="#fa-github"></use>
-              </svg>
-              <em>Control del aula</em>
-            </a>
-          </li>
-          <li class="twitter">
-            <a rel="external" href="https://twitter.com/lliurex" title="Twitter">
-              <svg class="fa-twitter">
-                <use xlink:href="#fa-twitter"></use>
-              </svg>
-              <em>@WebSlides</em>
-            </a>
-          </li>
-          <!--  <li class="dribbble"><a rel="external" href="http://dribbble.com/jlantunez" title="Dribbble"><svg class="fa-dribbble"><use xlink:href="#fa-dribbble"></use></svg> <em>jlantunez</em></a></li> -->
-        <!--</ul>
-      </nav>
-    </header>-->
-    
-    <main role="main">
+      <main role="main">
       <article id="webslides" class="vertical">
       
         <!-- Quick Guide
@@ -104,24 +79,19 @@
 <!--	##############################################  PAGINA 1 ###################################################-->
 <!--	########################################################################################################-->      
         <section>
-          <div class="wrap">
-            <div class="grid vertical-align">
-              <div class="gallery">
+          <div class="wrap aligncenter size-40">
                 <h2>
-                 Freeradius
-                </h2>
-                <p class="text-intro">Utilitza els teus usuaris també per a la wifi.</p>
-                <ul class="description">
-                </ul>
-              </div>
-              <!-- end .column-->
-              <div >
-                <figure>
-                  <img width="800px" height="600px" src="../static/images/freeradius/02_wifisegura.png" alt="freeradius">
-                </figure>
-              </div>
-              <!-- end figure-->
-            </div>
+                 LliureX Guard
+                </h2><br>
+		<ul class="flexblock gallery ">
+			<li>
+				<div class="overlay dark">
+					
+					<h2><strong>Controla el que vols que vegen</strong></h2>
+				</div>
+				<img style="width=354; height=473;" src="../static/images/lliurexguard.png" alt="lliurexguard">
+			</li>
+		</ul>
             <!-- end .grid-->
           </div>
           <!-- end .wrap-->
@@ -129,96 +99,107 @@
 <!--	########################################################################################################-->
 <!--	##############################################  PAGINA 2 ###################################################-->
 <!--	########################################################################################################-->
-       <section  style="padding-top: 3px; padding-bottom:6px;">
+    	<section>
           <div class="wrap">
-	  <h1>Què podem fer?</h1>
-	  <img width="400px" height="400px" src="../static/images/freeradius/03_ladron.png">
+	  <h1>1. Polítiques</h1>
+	  <img width="400px" height="400px" src="../static/images/lliurex-guard/01_politica.png">
             <div class="content-right">
+		<br><br><br><br>
               <ul class="flexblock specs">
-                <li style="padding:1rem">
+	        <!--<li><div></div></li>-->
+                <li>
+                  <div>
+                    <svg class="fa-unlock">
+                      <use xlink:href="#fa-unlock"></use>
+                    </svg>
+                    <h2>Política permissiva</h2>
+                    Permet l'accés a qualsevol domini, excepte aquells especificats en la llista negra. <img  style="float:none; margin:0; width: 12px;" src="../static/images/lliurex-guard/01b_file_black.png">
+		   </div>
+   	        </li>
+                <li>
                   <div>
                     <svg class="fa-lock">
                       <use xlink:href="#fa-lock"></use>
                     </svg>
-                    <h2>Restringir l'accés </h2>
-                    Permet l'accés als usuaris del sistema.
+                    <h2>Política restrictiva</h2>
+                    Restringeix l'accés a qualsevol domini, excepte aquells especificats en la llista blanca. <img  style="float:none; margin:0; width: 12px;" src="../static/images/lliurex-guard/01c_file_white.png" >
                   </div>
-                </li>
-                <li style="padding:1rem">
-                  <div>
-                    <svg class="fa-unlock">
-                      <use xlink:href="#fa-unlock"></use>
-                    </svg>
-                    <h2>Triar quins grups hi entren</h2>
-                    Pots fer que només hi puga entrar el professorat.
-                  </div>
-                </li>
-		<li style="padding:1rem">
-                  <div>
-                    <svg class="fa-unlock">
-                      <use xlink:href="#fa-unlock"></use>
-                    </svg>
-                    <h2>Posar a la memòria cau les connexions</h2>
-                    Optimitza la connexió a internet del centre.
-                  </div>
-                </li>
+		</li>
+		<li><div></div></li>
 		</ul>
 		</div>
-            </div>
+
 	</div>
           <!-- .end .wrap -->
         </section>
 <!--	########################################################################################################-->
 <!--	##############################################  PAGINA 3 ###################################################-->
 <!--	########################################################################################################-->
-        <section  style="padding-top: 3px; padding-bottom:6px;">
-          <div class="wrap">
-	  <h1>Què necessitem?</h1>
-	  <img width="400px" height="400px" src="../static/images/epoptes/05_restricciones.png">
-            <div class="content-right">
-              <ul class="flexblock specs">
-                <li style="padding:1rem">
-                  <div>
-                    <svg class="fa-lock">
-                      <use xlink:href="#fa-lock"></use>
-                    </svg>
-                    <h2>Un servidor LliureX</h2>
-                    Administrarà usuaris i accés.
-                  </div>
-                </li>
-                <li style="padding:1rem">
-                  <div>
-                    <svg class="fa-unlock">
-                      <use xlink:href="#fa-unlock"></use>
-                    </svg>
-                    <h2>Un punt d'accés que admeta Radius</h2>
-                    Ha de ser capaç de «parlar» amb el servidor.
-                  </div>
-                </li>
-		<li style="padding:1rem">
-                  <div>
-                    <svg class="fa-unlock">
-                      <use xlink:href="#fa-unlock"></use>
-                    </svg>
-                    <h2>Un AP que admeta mín. 20 usuaris</h2>
-                    Un punt d'accés «barat» cau quan es connecten 8 o 9 dispositius.
-                  </div>
-                </li>
-		</ul>
-		</div>
-            </div>
+    	<section>
+         <div class="wrap">
+            <h1>Editant la  <span>Llista blanca</span></h1>
+            <ul class="flexblock ">
+              <li>
+                <div>
+		<img src="../static/images/lliurex-guard/02_listablancaA.jpg">
+                  Afegim domini de l'aula i els URL que considerem.
+                </div>
+              </li>
+              <li>
+                <div>
+		<img src="../static/images/lliurex-guard/02_listablancaB.png">
+                  Afegim els URL que volem permetre explícitament.
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+<!--	########################################################################################################-->
+<!--	##############################################  PAGINA 4 ###################################################-->
+<!--	########################################################################################################-->
+    	<section>
+         <div class="wrap">
+            <h1>Editant la <span>Llista negra</span></h1>
+	    <img style="width:400px; height:400px;" src="../static/images/lliurex-guard/03_listanegraA.png">
+	    <div class="content-right">
+		   <br><br><br>
+		<ul class="flexblock specs">
+
+		   <li><div></div></li>
+                   <li>
+		      <div>
+			<svg class="fa-unlock">
+			<use xlink:href="#fa-unlock"></use>
+			</svg>
+			<h2>Llista personalitzada</h2>
+			S'hi poden afegir dominis per a prohibir-los explícitament.
+			</div>
+		    </li>
+		    <li>
+		       <div>
+				<svg class="fa-unlock">
+				<use xlink:href="#fa-unlock"></use>
+				</svg>
+				<h2>Llistes preconfigurades</h2>
+				Vénen preconfigurades unes llistes de dominis agrupats per categories.
+		       </div>
+                  </li>
+		  <li><div></div></li>
+	     </ul>
+	   </div>
 	</div>
 	<footer>
 	  <div class="wrap">
 	  <span class="alignright">
-		<a href="../index.html#slide=4">
+		<a href="../index.html#slide=3">
                         <h3>Torna</h3>
                 </a>
 	   </span>
 	  </div>
 	  <div class="wrap">
 	  <span class="alignleft">
-		<a href="http://wiki.lliurex.net/tiki-index.php?page=Inicializar+Freeradius">
+		<a href="http://wiki.lliurex.net/tiki-index.php?page=LliureX+Guard+Easy">
                         http://wiki.lliurex.net
                 </a>
 	   </span>
@@ -227,66 +208,16 @@
           <!-- .end .wrap -->
         </section>
 <!--	########################################################################################################-->
-<!--	##############################################  PAGINA 5 ###################################################-->
-<!--	########################################################################################################-->
-          <section>
-          <div class="wrap">
-            <div class="grid vertical-align">
-              <div class="column">
-                <h2>
-                Editor Casimir
-                </h2>
-                <p class="text-intro">Concebido como herramienta de aprendizaje multisensorial para niños y niñas con dislexia.</p>
-		<p class="text-intro">Incluye también acceso al portal Natural Reader que permite la lectura de documentos</p>
-                <ul class="description">
-                </ul>
-              </div>
-              <!-- end .column-->
-              <div class="column">
-                <figure>
-                  <img src="../static/images/eduespecial/04_casimir.png" alt="casimir">
-                </figure>
-              </div>
-              <!-- end figure-->
-            </div>
-            <!-- end .grid-->
-	    
-          </div>
-		<footer>
-			  <div class="wrap">
-	  <span class="alignright">
-		<a href="../index.html#slide=4">
-                        <h3>Volver</h3>
-                </a>
-	   </span>
-	  </div>
-	  <div class="wrap">
-	  <span class="alignleft">
-		<a href="http://wiki.lliurex.net/tiki-index.php?page=casimir_editor_cas">
-                        http://wiki.lliurex.net
-                </a>
-	   </span>
-	  </div>
-	  </footer>
-          <!-- end .wrap-->
-        </section>
-
-<!--	########################################################################################################-->
 <!--	##############################################  PAGINA 6 ###################################################-->
 <!--	########################################################################################################-->
-         
+    
+        
       </article>
       <!-- end article -->
     </main>
     <!-- end main --> 
     
    <!-- Remove #webslides element :)
-   
-     <footer role="contentinfo">
-      <div class="wrap">
-        <p>An <a href="https://github.com/jlantunez/webslides">open source solution</a>, by <a href="https://twitter.com/jlantunez">@jlantunez</a>.</p>
-      </div>
-    </footer>  --> 
     
     <!-- jQuery (required for slides to work) -->
     <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>

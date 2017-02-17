@@ -64,34 +64,20 @@
     <!-- Android -->
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="theme-color" content="#333333">
-    
+    <!-- Dialogos -->
+      <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+      <link rel="stylesheet" type='text/css' media='all' href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<style>
+#container{
+	margin:40px;
+	cursor:pointer;
+}
+</style>
   </head>
   <body>
-  <!--  <header role="banner">
-      <nav role="navigation">
-        <p class="logo"><a href="index.html" title="WebSlides">WebSlides</a></p>
-        <ul>
-          <li class="github">
-            <a rel="external" href="http://lliurex.net" title="LliureX">
-              <svg class="fa-github">
-                <use xlink:href="#fa-github"></use>
-              </svg>
-              <em>WebSlides</em>
-            </a>
-          </li>
-          <li class="twitter">
-            <a rel="external" href="https://twitter.com/lliurex" title="Twitter">
-              <svg class="fa-twitter">
-                <use xlink:href="#fa-twitter"></use>
-              </svg>
-              <em>@WebSlides</em>
-            </a>
-          </li>
-          <!--  <li class="dribbble"><a rel="external" href="http://dribbble.com/jlantunez" title="Dribbble"><svg class="fa-dribbble"><use xlink:href="#fa-dribbble"></use></svg> <em>jlantunez</em></a></li> -->
-        <!--</ul>
-      </nav>
-    </header>-->
-    
+
+
     <main role="main">
       <article id="webslides" class="vertical">
       
@@ -111,9 +97,9 @@
 	    <div class="wrap aligncenter bg-trans-light  ">
             <ul class="flexblock reasons ">
 		  <div class="aligncenter bg-trans-light  " style="color: #fff;">
-		     <h1><strong>LliureX es fácil </strong></h1>
-                    Con LliureX sólo tienes que preocuparte de dar clase<br>
-                    las herramientas para el aula vienen de serie.
+		     <h1><strong>LliureX és fàcil </strong></h1>
+                    Amb LliureX sols has de preocupar-te de fer classe,<br>
+                    les eines per a l'aula vénen de sèrie.
 		  </div>
 	      </ul>
 	    </div>
@@ -122,15 +108,7 @@
           </div>-->
 	  </div>
 
-            <!--<p>
-              <a href="https://github.com/jlantunez/webslides/archive/master.zip" class="button zoomIn" title="Download WebSlides for free">
-                <svg class="fa-cloud-download">
-                  <use xlink:href="#fa-cloud-download"></use>
-                </svg>
-                WebSlides
-              </a>
-            </p>--!>
-          </div>
+
           <!-- .end .wrap -->  
 
         </section>
@@ -141,16 +119,16 @@
           <!--.wrap = container 1200px -->
           <div class="wrap size-50 aligncenter"  >
             <h2 ><strong>LliureX vs Windows</strong></h2>
-            <p class="text-intro">¿Qué más da? ¡Olvida el sistema!</p>
+            <p class="text-intro">Tant se val! Oblida el sistema!</p>
             <div class="bg-white shadow">
               <ul class="flexblock reasons">
                 <li>
-                  <h2>En un móvil te da igual si corre Android o IOS</h2>
-                  <p>Lo que realmente necesitas son tus aplicaciones: Evernote, facebook, clash of clans, etc.</p>
+                  <h2>En un mòbil no importa si corre Android o IOS.</h2>
+                  <p>Allò que realment necessites són les teues aplicacions: Evernote, Facebook, Clash of Clans, etc.</p>
                 </li>
                 <li>
-                  <h2>¿Te acuerdas de los virus?</h2>
-                  <p>Con LliureX el problema de los virus en tu ordenador y pendrive han pasado a la historia. Ya no necesitas reinstalar el aula cada trimestre</p>
+                  <h2>Et recordes dels virus?</h2>
+                  <p>Amb LliureX el problema dels virus en l'ordinador i llapis USB han passat a la història. Ja no necessites reinstal·lar l'aula cada trimestre.</p>
                 </li>
               </ul>
             </div>
@@ -166,7 +144,7 @@
           <div class="wrap">
             <div class="grid vertical-align">
               <div class="wrap">
-                <h3><strong>Dime que necesitas</strong></h3>
+                <h3><strong>Què necessites?</strong></h3>
                 <ul>
 		<p class="text-intro"><ul class="flexblock gallery">
 		   <li>
@@ -174,7 +152,7 @@
 		   <figure>
 		   <img alt="Thumbnail Control Aula" src="static/images/aula_cefire.jpg">
 		      <figcaption>
-                        <h3>Control de <br> aula</h3>
+                        <h3>Control d'<br> aula</h3>
                        </figcaption>
                   </figure>
                   </a>
@@ -184,7 +162,7 @@
 		   <figure>
 		   <img alt="Thumbnail Harvester" src="static/images/harvester.png">
 		      <figcaption>
-                        <h3>Recolector de<br> trabajos</h3>
+                        <h3>Recol·lector de<br> treballs</h3>
 		      </figcaption>
                   </figure>
                   </a>
@@ -194,7 +172,7 @@
 		   <figure>
 		   <img alt="Thumbnail carpetas" src="static/images/carpeta_compartida.png" >
 		      <figcaption>
-                        <h3>Carpetas <br>compartidas</h3>
+                        <h3>Carpetes <br>compartides</h3>
 		      </figcaption>
                   </figure>
                   </a>
@@ -204,7 +182,7 @@
 		   <figure>
 		   <img alt="Thumbnail lliurexguard" src="static/images/lliurexguard.png">
 		      <figcaption>
-                        <h3>Control de <br>internet</h3>
+                        <h3>Control d'<br>internet</h3>
 		      </figcaption>
                   </figure>
                   </a>
@@ -214,7 +192,7 @@
 		   <figure>
 		   <img alt="Thumbnail lliurexlab" src="static/images/lliurexlab.png">
 		      <figcaption>
-                        <h3>Laboratorio de <br>idiomas</h3>
+                        <h3>Laboratori d'<br>idiomes</h3>
 		      </figcaption>
                   </figure>
                   </a>
@@ -224,7 +202,7 @@
 		   <figure>
 		   <img alt="Thumbnail printa" src="static/images/printa.png" >
 		      <figcaption>
-                        <h3>Gestión de <br>impresoras</h3>
+                        <h3>Gestió d'<br>impressores</h3>
 		      </figcaption>
                   </figure>
                   </a>
@@ -234,7 +212,7 @@
 		   <figure>
 		   <img alt="Thumbnail biblioteca" src="static/images/biblioteca.png" >
 		      <figcaption>
-                        <h3>Gestión de <br>Biblioteca</h3>
+                        <h3>Gestió de<br>biblioteca</h3>
 		      </figcaption>
                   </figure>
                   </a>
@@ -244,7 +222,7 @@
 		   <figure>
 		   <img alt="Thumbnail modeldecentro" src="static/images/modelodecentro.png" >
 		      <figcaption>
-                        <h3>Modelo de <br>centro</h3>
+                        <h3>Model de <br>centre</h3>
 		      </figcaption>
                   </figure>
                   </a>
@@ -264,7 +242,7 @@
           <div class="wrap">
             <div class="grid vertical-align">
               <div class="wrap">
-                <h3><strong>¿Aún necesitas más cosas?</strong></h3>
+                <h3><strong>Encara necessites més coses?</strong></h3>
                 <ul>
 		<p class="text-intro"><ul class="flexblock gallery">
 		   <li>
@@ -272,7 +250,7 @@
 		   <figure>
 		   <img style="width:262px; height:196px;"  alt="Thumbnail Control Aula" src="static/images/zerocenter.jpg">
 		      <figcaption>
-                        <h3>Centro de control <br>Zero-center</h3>
+                        <h3>Centre de control <br>Zero-center</h3>
                        </figcaption>
                   </figure>
                   </a>
@@ -282,7 +260,7 @@
 		   <figure>
 		   <img style="width:262px; height:196px;"  alt="Thumbnail Harvester" src="static/images/eduespecial.jpg">
 		      <figcaption>
-                        <h3>Educación <br>Especial</h3>
+                        <h3>Educació <br>Especial</h3>
 		      </figcaption>
                   </figure>
                   </a>
@@ -292,7 +270,7 @@
 		   <figure>
 		   <img style="width:262px; height:196px;"  alt="Thumbnail carpetas" src="static/images/shutdown.png" >
 		      <figcaption>
-                        <h3>Apagado automático <br>de clientes</h3>
+                        <h3>Parada automàtica <br>de clients</h3>
 		      </figcaption>
                   </figure>
                   </a>
@@ -302,51 +280,22 @@
 		   <figure>
 		   <img style="width:262px; height:196px;"   alt="Thumbnail lliurexguard" src="static/images/freeradius.png">
 		      <figcaption>
-                        <h3>Wifi con <br>usuarios de lliurex</h3>
+                        <h3>Wifi amb <br>usuaris de LliureX</h3>
 		      </figcaption>
                   </figure>
                   </a>
 		   </li>
 		   <li>
-		  <a href="secciones/lliurexlab.html" title="LliureX Lab">
+		  <a href="secciones/hotpotatoes.html" title="HotPotatoes">
 		   <figure>
-		   <img alt="Thumbnail lliurexlab" src="static/images/lliurexlab.png">
+		   <img style="width:262px; height:196px;" alt="Thumbnail lliurexlab" src="static/images/hotpotatoes/01_hotpotatoes.png">
 		      <figcaption>
-                        <h3>Laboratorio de <br>idiomas</h3>
+                        <h3>Hot Potatoes <br></h3>
 		      </figcaption>
                   </figure>
                   </a>
 		   </li>
-		<li >
-		  <a href="secciones/printa.html" title="Gestión de impresoras">
-		   <figure>
-		   <img alt="Thumbnail printa" src="static/images/printa.png" >
-		      <figcaption>
-                        <h3>Gestión de <br>impresoras</h3>
-		      </figcaption>
-                  </figure>
-                  </a>
-		   </li> 
-		<li >
-		  <a href="secciones/biblioteca.html" title="Gestión de biblioteca">
-		   <figure>
-		   <img alt="Thumbnail biblioteca" src="static/images/biblioteca.png" >
-		      <figcaption>
-                        <h3>Gestión de <br>Biblioteca</h3>
-		      </figcaption>
-                  </figure>
-                  </a>
-		   </li>
-		<li >
-		  <a href="secciones/modelodecentro.html" title="Modelo de centro">
-		   <figure>
-		   <img alt="Thumbnail modeldecentro" src="static/images/modelodecentro.png" >
-		      <figcaption>
-                        <h3>Modelo de <br>centro</h3>
-		      </figcaption>
-                  </figure>
-                  </a>
-		   </li> 
+		
 		</ul>
 		</p>
             </div>
@@ -355,19 +304,19 @@
           <!-- .end .wrap -->
         </section>
 <!--	########################################################################################################-->
-<!--	##############################################  PAGINA 4 ###################################################-->
+<!--	##############################################  PAGINA 5 ###################################################-->
 <!--	########################################################################################################-->
        <section class="aligncenter">
           <!-- .wrap = container 1200px -->
           <div class="wrap">
-            <h2><strong>Lliurex y las editoriales</strong> </h2>
-            <p class="text-intro">¿Tenemos problemas con los recursos de las editoriales? <br>¿No funcionan bien sobre LliureX?</p>
+            <h2><strong>LliureX i les editorials</strong> </h2>
+            <p class="text-intro">Tenim problemes amb els recursos de les editorials? <br>No funcionen bé sobre LliureX?</p>
             <p>
               <a href="secciones/gasolinera.html" class="button" title="Editoriales">
                 <svg class="fa-book">
                   <use xlink:href="#fa-book"></use>
                 </svg>
-                Había una vez....
+                Hi havia una vegada...
               </a>
             </p>
           </div>
@@ -378,180 +327,181 @@
 <!--	########################################################################################################-->
         <section>
           <div class="wrap">
-            <h2>Editoriales</h2>
+  	       
+            <h2>LliureX 16: nova versió</h2>
             <ul class="flexblock features">
               <li>
                 <div>
                   <h2>
-                    <span>&rarr;</span>
-                    Simple Navigation
-                  </h2>
-                  with arrow keys and swipe.
-                </div>
-              </li>
-              <li>
-	      <a href="demos/landings.html" title="Landings">
-                  <figure>
-                    <img alt="Thumbnail Landings" src="https://webslides.tv/static/images/demos-landings.png">
-                    <figcaption>
-                      <h2>Landings</h2>
-                    </figcaption>
-                  </figure>
-                </a>
-	      </li>
-                <div>
-                  <h2>
-                    <svg class="fa-link">
-                      <use xlink:href="#fa-link"></use>
+		    <svg class="fa-th">
+                      <use xlink:href="#fa-th"></use>
                     </svg>
-                    Permalinks
+                    Instal·lador d'aplicacions
                   </h2>
-                  Go to a specific slide.
+                  Instal·la tot el que vulgues en els clients.
                 </div>
+              </li>
+              <li >
+     			  <div id='container-llx16' style="cursor:pointer;">
+			    <h2>
+			    <svg class="fa-hand-o-up">
+				<use xlink:href="#fa-hand-o-up"></use>
+			   </svg>
+			   Nou entorn gràfic
+			  </h2>
+			  Més modern i més funcional.
+			  </div>
+			  <div id='llx16'  style='display:none'>
+				<img src="static/images/lliurex16.png">
+			</div>
+			<script>
+			var 	h = $("#llx16").dialog({autoOpen:false, modal:true, width:'auto', title:'Nou entorn gráfico'});
+			 $("#container-llx16").on("click", function(e){
+				h.dialog("open");
+			});
+			  </script>
+	     </li>
+               <li>
+			<div id='container-dock' style="cursor:pointer;">
+			  <h2>
+			    <svg class="fa-minus">
+			      <use xlink:href="#fa-minus"></use>
+			    </svg>
+			    Plafó d'aplicacions
+			  </h2>
+			  Facilita l'accés a les apps.
+			</div>
+			<div id='plank'  style='display:none'>
+				<img src="static/images/plank.jpg">
+			</div>
+			<script>
+			var f = $("#plank").dialog({autoOpen:false, modal:true, width:'auto', title:'Dock de aplicaciones'});
+			 $("#container-dock").on("click", function(e){
+				f.dialog("open");
+			});
+			  </script>
               </li>
               <li>
                 <div>
                   <h2>
-                    <svg class="fa-clock-o">
-                      <use xlink:href="#fa-clock-o"></use>
+                    <svg class="fa-arrow-circle-up">
+                      <use xlink:href="#fa-arrow-circle-up"></use>
                     </svg>
-                    Slide Counter
+                   Aplicacions més actualitzades
                   </h2>
-                  Current/Total number.
+                  <!--Current/Total number.-->
                 </div>
+		
               </li>
-              <li>
-                <div>
+            <li>
+                <div id='container-admincenter' style="cursor:pointer;">
                   <h2>
-                    <span>40<sup>+</sup></span>
-                    Beautiful Components
-                  </h2>
-                  Covers, cards, quotes...
-                </div>
-              </li>
-              <li>
-                <div>
-                  <h2>
-                    <svg class="fa-text-height">
-                      <use xlink:href="#fa-text-height"></use>
+                    <svg class="fa-cloud">
+                      <use xlink:href="#fa-cloud"></use>
                     </svg>
-                    Vertical Rhythm
+                   Nou centre d'administració web
                   </h2>
-                  Use multiples of 8.
+                  <!--Current/Total number.-->
                 </div>
+			<div id='admincenter'  style='display:none'>
+				<img src="static/images/admin-center.png">
+			</div>
+			<script>
+			var ac = $("#admincenter").dialog({autoOpen:false, modal:true, width:'auto', title:'Centro de control'});
+			 $("#container-admincenter").on("click", function(e){
+				ac.dialog("open");
+			});
+			  </script>
               </li>
               <li>
                 <div>
                   <h2>
-                    <span>500<sup>+</sup></span>
-                    SVG Icons
+                    <img src="static/images/freeradius/04_lliurex.png">
+                    LliureX-Market nou
                   </h2>
-                  Font Awesome Kit.
+                  Instal·lador d'apps.
                 </div>
               </li>
+
             </ul>
           </div>
         </section>
-        <section>
+<!--	########################################################################################################-->
+<!--	##############################################  PAGINA 6 ###################################################-->
+<!--	########################################################################################################-->
+ <section  style="padding-top: 3px; padding-bottom:6px;">
           <div class="wrap">
-            <h2><strong>WebSlides Demos</strong></h2>
-            <p>Contribute on <a href="https://github.com/jlantunez/webslides" title="Contribute on Github">Github</a>. <span class="alignright"><a href="demos/index.html" title="WebSlides Demos">View all &rsaquo;</a></span></p>
-            <ul class="flexblock gallery">
+	  <img  src="static/images/sai.png">
+           <ul class="flexblock features">
               <li>
-                <a href="demos/why-webslides.html" title="Why WebSlides?">
-                  <figure>
-                    <img alt="Thumbnail Why WebSlides?" src="https://webslides.tv/static/images/demos-why.png">
-                    <figcaption>
-                      <h2>Why WebSlides?</h2>
-                    </figcaption>
-                  </figure>
-                </a>
+                <div>
+                  <h2>
+                    <svg class="fa-arrow-circle-up">
+                      <use xlink:href="#fa-arrow-circle-up"></use>
+                    </svg>
+                    60% incidències
+                  </h2>
+                  Se solucionen actualitzant.
+                </div>
               </li>
               <li>
-                <a href="demos/landings.html" title="Landings">
-                  <figure>
-                    <img alt="Thumbnail Landings" src="https://webslides.tv/static/images/demos-landings.png">
-                    <figcaption>
-                      <h2>Landings</h2>
-                    </figcaption>
-                  </figure>
-                </a>
+                <div>
+                  <h2>
+		    <svg class="fa-user-times">
+                      <use xlink:href="#fa-user-times"></use>
+                    </svg>
+                   20% incidències
+                  </h2>
+                  Mala configuració de l'usuari
+                </div>
+              </li>
+               <li>
+                <div>
+                  <h2>
+		    <svg class="fa-print">
+                      <use xlink:href="#fa-print"></use>
+                    </svg>
+                    10% incidències
+                  </h2>
+                  Controladors o perifèrics
+                </div>
               </li>
               <li>
-                <a href="demos/portfolios.html" title="Portfolios">
-                  <figure>
-                    <img alt="Thumbnail Portfolios" src="https://webslides.tv/static/images/demos-portfolios.png">
-                    <figcaption>
-                      <h2>Portfolios</h2>
-                    </figcaption>
-                  </figure>
-                </a>
-              </li>
-              <li>
-                <a href="demos/keynote.html" title="Apple Keynote">
-                  <figure>
-                    <img alt="Thumbnail Apple Keynote" src="https://webslides.tv/static/images/demos-apple.png">
-                    <figcaption>
-                      <h2>Apple Keynote</h2>
-                    </figcaption>
-                  </figure>
-                </a>
+                <div>
+                  <h2>
+                    <svg class="fa-exclamation-triangle">
+                      <use xlink:href="#fa-exclamation-triangle"></use>
+                    </svg>
+                   10% incidències
+                  </h2>
+		  Errors de LliureX, apps, etc.
+                  <!--Current/Total number.-->
+                </div>
               </li>
             </ul>
-          </div>
+		<!--</div>-->
+            </div>
+	</div>
           <!-- .end .wrap -->
         </section>
-        <section>
-          <div class="wrap">
-            <div class="grid vertical-align">
-              <div class="column">
-                <h4>
-                  <svg class="fa-life-ring">
-                    <use xlink:href="#fa-life-ring"></use>
-                  </svg>
-                  <strong>Guides</strong>
-                </h4>
-                <p>If you need some help, here's just two tutorials. Just a basic knowledge of HTML is required:</p>
-                <ul class="description">
-                  <li><a href="demos/components.html" title="WebSlides Components">WebSlides Components</a>.</li>
-                  <li><a href="demos/classes.html" title="WebSlides Classes">WebSlides Classes</a>.</li>
-                </ul>
-              </div>
-              <div class="column">
-                <figure><img src="static/images/setup.png" alt="WebSlides Files"></figure>
-              </div>
-              <div class="column">
-                <h4>
-                  <svg class="fa-cubes">
-                    <use xlink:href="#fa-cubes"></use>
-                  </svg>
-                  <strong>Built to expand</strong>
-                </h4>
-                <p>The best way to <strong>inspire with your content</strong> is to connect on a personal level. We love these solutions:</p>
-                <ul class="description">
-                  <li>Background images: <a href="http://unsplash.com">Unsplash</a>.</li>
-                  <li>CSS animations: <a href="https://daneden.github.io/animate.css/">Animate.css</a>.</li>
-                </ul>
-              </div>
-            </div>
-            <!--end .grid -->
-          </div>
-        </section>
- 
+<!--	########################################################################################################-->
+<!--	##############################################  PAGINA 7 ###################################################-->
+<!--	########################################################################################################-->	
+
         <section class="slide-bottom">
           <div class="wrap">
             <div class="content-right text-serif">
               <h2>
-                <strong>Muchas gracias.</strong>
+                <strong>Moltes gràcies.</strong>
                 <a target="_blank" title="Share on Twitter" href="https://twitter.com/intent/tweet?text=Finally,%20everything%20you%20need%20to%20make%20HTML%20presentations%20in%20a%20fast/beautiful%20way.%20@WebSlides%20=%20Good%20karma%20&mdash;%20https://webslides.tv">
                   <svg class="fa-twitter">
                     <use xlink:href="#fa-twitter"></use>
                   </svg>
                 </a>
               </h2>
-              <p>Si todos compartimos un poco de nuestro conocimiento todos saldremos ganando. <a href="https://twitter.com/LliureX">@lliurex</a>.</p>
+              <p>Si tots compartim un poc del nostre coneixement tots eixirem guanyant. <a href="https://twitter.com/LliureX">@lliurex</a>.</p>
               <figure>
-                <img class="aligncenter fadeInUp" src="https://webslides.tv/static/images/signature.png" alt="Signature">
+                <img style="width:150px; height:100px;" class="alignright fadeInUp" src="static/images/freeradius/04_lliurex.png" alt="Signature">
                 </a>
               </figure>
             </div>
@@ -574,7 +524,7 @@
     </footer>  --> 
     
     <!-- jQuery (required for slides to work) -->
-    <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="http://code.jquery.com/jquery-3.1.1a.min.js"></script>
     <script src="static/js/webslides.js"></script>
     
     <!-- OPTIONAL - svg-icons.js (fontastic.me - Font Awesome as svg icons) -->
