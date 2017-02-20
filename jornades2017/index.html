@@ -295,7 +295,16 @@
                   </figure>
                   </a>
 		   </li>
-		
+				   <li>
+		  <a href="secciones/easysites.html" title="Easy-Sites">
+		   <figure>
+		   <img style="width:262px; height:196px;" alt="Thumbnail lliurexlab" src="static/images/easysites/easy01.png">
+		      <figcaption>
+                        <h3>EasySites <br></h3>
+		      </figcaption>
+                  </figure>
+                  </a>
+		   </li>	
 		</ul>
 		</p>
             </div>
@@ -414,13 +423,22 @@
 			  </script>
               </li>
               <li>
-                <div>
+                <div id='container-store'>
                   <h2>
                     <img src="static/images/freeradius/04_lliurex.png">
                     LliureX-Market nou
                   </h2>
                   Instal·lador d'apps.
-                </div>
+		</div>
+		<div id='store'  style='display:none'>
+			<img src="static/images/store.jpg">
+		</div>
+		<script>
+			var av = $("#store").dialog({autoOpen:false, modal:true, width:'auto', title:'LliureX-Market'});
+			 $("#container-store").on("click", function(e){
+				av.dialog("open");
+			});
+		  </script>
               </li>
 
             </ul>
