@@ -128,8 +128,18 @@
                   <p>Allò que realment necessites són les teues aplicacions: Evernote, Facebook, Clash of Clans, etc.</p>
                 </li>
                 <li>
+		<div id='container-admincenter' style="cursor:pointer;">
                   <h2>Et recordes dels virus?</h2>
                   <p>Amb LliureX el problema dels virus en l'ordinador i llapis USB han passat a la història. Ja no necessites reinstal·lar l'aula cada trimestre.</p>
+		  <div id='admincenter'  style='display:none'>
+				<img width="640px" height="480px" src="static/images/randsomware.png">
+			</div>
+			<script>
+			var ac = $("#admincenter").dialog({autoOpen:false, modal:true, width:'auto', title:'Centro de control'});
+			 $("#container-admincenter").on("click", function(e){
+				ac.dialog("open");
+			});
+			  </script>
                 </li>
               </ul>
             </div>
@@ -322,7 +332,7 @@
 <!--	##############################################  PAGINA 7 ###################################################-->
 <!--	########################################################################################################-->	
 
-        <section class="slide-bottom"  style="padding-top: 3px; padding-bottom:6px;">
+        <section class="slide-bottom"  style="padding-top: 8px; padding-bottom:28px;">
           <div class="wrap">
             <div class="content-right text-serif">
               <h2>
